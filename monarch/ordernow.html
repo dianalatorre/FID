@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset ="utf-8">
+<picture>
+  <a href="monarchlogo.png"> <img class="fit-picture"
+  src="monarchlogo.png"
+  alt="Image of Monarch Logo"></a>
+</picture>
+<title>Monarch Co.</title>
+<link href='http://fonts.googleapis.com/css?family=Marko+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="products.css" >
+<style>
+body {
+background-color:#f4be82;
+margin: 0 15%;
+text-align: center;
+font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+}
+h2 {
+color: #000000;
+font-size; 1em;
+}
+</style>
+
+<h1>Order from Monarch Co.</h1>
+
+<form action="http://www.blackgoosebistro.com/pizza.php" method="post">
+
+<fieldset>
+  <legend>Your Information</legend>
+  <ul>
+    <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li>
+    <li><label for="form-address">Address:</label> <input type="text" name="address" id="form-address"></li>
+    <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+    <li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li>
+    <li>Delivery instructions:<br>
+    <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea></li>
+  </ul>
+</fieldset>
+
+<h2>Pick Your Products:</h2>
+
+<fieldset>
+  <fieldset>
+    <ul>
+      <li><label><input type="radio" name="crust" value="white"> Gold Diamond Butterfly Earring</label><p><a href="samples/butterflyearring.jpeg"><img src="samples/butterflyearring.jpeg" weight="400px" height="400px" alt="close-up of sliced rustic bread"></a><br></li>
+      <li><label><input type="radio" name="crust" value="multigrain"> Gold Butterfly Earring</label><p><a href="samples/butterflyearring2.jpg"><img src="samples/butterflyearring2.jpg" weight="400px" height="400px" alt="close-up of sliced rustic bread"></a><br></li>
+      <li><label><input type="radio" name="crust" value="cheese crust"> Gold Butterfly Studs</label><p><a href="samples/butterflstud.jpg"><img src="samples/butterflystud.jpg" weight="400px" height="400px" alt="close-up of sliced rustic bread"></a><br></li>
+      <li><label><input type="radio" name="crust" value="gluten free"> Gold Chain Butterfly Charm Necklace</label><p><a href="samples/butterflynecklace.png"><img src="samples/butterflynecklace.png" weight="400px" height="400px" alt="close up of multiple burgers"></a><br>
+</li>
+        <li><label><input type="radio" name="crust" value="gluten free"> Gold Butterfly Anklet</label><p><a href="samples/butterflyanklet.jpeg"><img src="samples/butterflyanklet.jpeg" weight="400px" height="400px" alt="close up of cut fish on plate"></a><br>
+</li>
+    </ul>
+  <h2>Thank Your for Saving the Monarch Butterfly!</h2>
+
+</fieldset> <!-- closes 'Pizza Specs' fieldset -->
+<h3><a href="monarch.html">Back to Home Page</a></h3>
